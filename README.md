@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DailyEssentials – Responsive Landing Page
 
-## Getting Started
+[![Website Status](https://deploy-badge.vercel.app/https://daily-essentials-ecommerce.vercel.app/)](https://daily-essentials-ecommerce.vercel.app/)  
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-First, run the development server:
+**Project Type:** Frontend Development / Landing Page  
+**Internship Assignment:** AutoBotWa Frontend Internship  
+
+---
+
+## 📝 About the Project
+
+This project is a **responsive landing page** for a product/service website named **DailyEssentials**.  
+It was developed as part of the **AutoBotWa Frontend Internship Assignment** to evaluate practical frontend development skills using **Next.js**, **Tailwind CSS**, and **Vercel v0**.
+
+The landing page includes all major sections of a modern landing website to provide a clean, user‑friendly interface.
+
+---
+
+## 🎯 Features
+
+The landing page includes:
+
+- **Hero Section** — Eye‑catching heading, sub‑text/description, and CTA button  
+- **Features Section** — At least 3 feature‑items with icons/descriptions  
+- **Testimonials / Product Highlights** — Showcases happy customers or highlighted products  
+- **Contact Section** — Contact form (or alternatively pricing section)  
+- **Footer** — Company info, links, social media icons  
+- **Fully Responsive Design** — Works on desktop, tablet, and mobile  
+
+---
+
+## 🚀 Live Demo
+
+👉 [View Live on Vercel](https://daily-essentials-ecommerce.vercel.app/)
+
+---
+
+## 💻 Getting Started (Local Setup)
 
 ```bash
+git clone https://github.com/Akshay1267/DailyEssentials-ecommerce.git
+cd DailyEssentials-ecommerce
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Then open http://localhost:3000 to view it locally.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠 Tech Stack
+Next.js — React-based framework for routing & rendering
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tailwind CSS — Utility‑first CSS for styling
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Vercel v0 / Vercel — Used for UI generation and deployment
 
-## Learn More
+📝 Notes on Vercel v0 Usage
+Hero section was initially scaffolded using Vercel v0 component generator
 
-To learn more about Next.js, take a look at the following resources:
+Feature cards/components were adapted from Vercel v0 templates + customized styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Testimonials / Product Highlights section used Vercel v0‑generated layout and manual styling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Overall layout and responsiveness implemented manually using Tailwind CSS
 
-## Deploy on Vercel
+📂 Project Structure
+python
+Copy code
+DailyEssentials-ecommerce/
+├─ public/             # Static assets (logo, images, icons)
+├─ pages/
+│   └─ index.tsx       # Landing page  
+├─ components/         # Reusable UI components (Hero, Features, Testimonials, Contact, Footer)  
+├─ styles/
+│   └─ globals.css      # Global styling  
+├─ package.json  
+├─ next.config.js  
+└─ README.md  
+📌 License
+This project is developed as part of AutoBotWa Internship Assignment.
+Licensed under MIT License.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👨‍💻 Author
+Akshay Jain
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MCA Student & Frontend Developer
+
+GitHub – Akshay1267
+
+LinkedIn
