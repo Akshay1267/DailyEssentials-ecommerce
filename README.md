@@ -1,7 +1,7 @@
 # DailyEssentials – Responsive Landing Page
 
 **Project Type:** Frontend Development / Landing Page  
-**Internship Assignment:** AutoBotWa Frontend Internship  
+**Internship Assignment:** AutoBotwa Frontend Internship  
 
 ---
 
@@ -43,14 +43,14 @@ npm run dev
 Then open http://localhost:3000 to view it locally.
 ```
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 Next.js — React-based framework for routing & rendering
 
 Tailwind CSS — Utility‑first CSS for styling
 
 Vercel v0 / Vercel — Used for UI generation and deployment
 
-📝 Notes on Vercel v0 Usage
+**📝 Notes on Vercel v0 Usage**
 Hero section was initially scaffolded using Vercel v0 component generator
 
 Feature cards/components were adapted from Vercel v0 templates + customized styling
@@ -72,12 +72,10 @@ DailyEssentials-ecommerce/
 ├─ next.config.js  
 └─ README.md  
 ```
-📌 License
 This project is developed as part of AutoBotWa Internship Assignment.
 
 👨‍💻 Author
 Akshay Jain
-
 MCA Student & Frontend Developer
 
 GitHub – Akshay1267
