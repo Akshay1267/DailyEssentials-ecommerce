@@ -1,8 +1,5 @@
 # DailyEssentials – Responsive Landing Page
 
-[![Website Status](https://deploy-badge.vercel.app/https://daily-essentials-ecommerce.vercel.app/)](https://daily-essentials-ecommerce.vercel.app/)  
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
 **Project Type:** Frontend Development / Landing Page  
 **Internship Assignment:** AutoBotWa Frontend Internship  
 
@@ -44,6 +41,7 @@ cd DailyEssentials-ecommerce
 npm install
 npm run dev
 Then open http://localhost:3000 to view it locally.
+```
 
 🛠 Tech Stack
 Next.js — React-based framework for routing & rendering
@@ -62,8 +60,7 @@ Testimonials / Product Highlights section used Vercel v0‑generated layout and 
 Overall layout and responsiveness implemented manually using Tailwind CSS
 
 📂 Project Structure
-python
-Copy code
+```bash
 DailyEssentials-ecommerce/
 ├─ public/             # Static assets (logo, images, icons)
 ├─ pages/
@@ -74,9 +71,9 @@ DailyEssentials-ecommerce/
 ├─ package.json  
 ├─ next.config.js  
 └─ README.md  
+```
 📌 License
 This project is developed as part of AutoBotWa Internship Assignment.
-Licensed under MIT License.
 
 👨‍💻 Author
 Akshay Jain
@@ -85,4 +82,4 @@ MCA Student & Frontend Developer
 
 GitHub – Akshay1267
 
-LinkedIn
+LinkedIn - https://www.linkedin.com/in/akshay-jain-8816252a5/
